@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.24.196'
+        SERVER_IP      = '3.85.205.219'
         SSH_CREDENTIAL = 'target'
         REPO_URL       = 'https://github.com/RajsingMore-0151/nodejs_app_CICD.git'
         BRANCH         = 'master'
         REMOTE_USER    = 'ubuntu'
-        REMOTE_PATH    = '/home/ubuntu/node-app'
+        REMOTE_PATH    = '/home/ubuntu/nodejs_app_CICD'
     }
     
     
